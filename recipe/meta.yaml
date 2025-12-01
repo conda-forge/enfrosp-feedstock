@@ -1,5 +1,5 @@
 {% set name = "enfrosp" %}
-{% set version = "0.2.0" %}
+{% set version = "0.2.2" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/enfrosp-{{ version }}.tar.gz
-  sha256: 1ead1e0a94ae2e5bd1a8ba42809ad5f735e62d516a6d31186e66b1e773b6238e
+  sha256: 23c7509cd60b56c80a16b90435399325ae5d73360be6bc141a8ff86271162884
 
 build:
   entry_points:
