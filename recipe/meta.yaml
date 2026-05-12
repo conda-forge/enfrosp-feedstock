@@ -14,11 +14,11 @@ build:
     - enfrosp = enfrosp.cli:main
   noarch: python
   script: {{ PYTHON }} -m pip install . -vv --no-deps --no-build-isolation
-  number: 1
+  number: 2
 
 requirements:
   host:
-    - python >{{ python_min }}  # with Python 3.10, the builds hang for hours
+    - python =3.13  # with python !=3.13, the builds hang for hours
     - pip
     - hatchling
   run:
