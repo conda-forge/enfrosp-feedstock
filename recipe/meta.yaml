@@ -20,7 +20,6 @@ requirements:
   host:
     - python =3.13  # with python !=3.13, the builds hang for hours
     - pip
-    - hatchling
   run:
     - python >={{ python_min }}
     - gdal
